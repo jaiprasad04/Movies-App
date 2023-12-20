@@ -1,0 +1,178 @@
+.account-root-container {
+  background-color: #000000;
+  /* min-height: 100vh; */
+}
+
+.account-details-container {
+  background-color: #ffffff;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.responsive-container {
+  max-width: 1110px;
+  width: 90%;
+}
+
+.account-heading {
+  color: #131313;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .account-heading {
+    font-size: 36px;
+  }
+}
+
+.member-details-container {
+  display: flex;
+}
+
+.membership-heading {
+  color: #94a3b8;
+  font-size: 18px;
+  font-family: 'Roboto';
+  width: 110px;
+}
+
+@media screen and (min-width: 768px) {
+  .membership-heading {
+    font-size: 24px;
+    width: 160px;
+  }
+}
+
+.membership-email {
+  font-size: 16px;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .membership-email {
+    font-size: 24px;
+  }
+}
+
+.membership-password {
+  color: #64748b;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .membership-password {
+    font-size: 24px;
+  }
+}
+
+.membership-container {
+  display: flex;
+}
+
+.plan-details {
+  font-size: 18px;
+  color: #94a3b8;
+  font-family: 'Roboto';
+  width: 110px;
+}
+
+@media screen and (min-width: 768px) {
+  .plan-details {
+    font-size: 24px;
+    width: 160px;
+  }
+}
+
+.plan-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.membership-premium {
+  margin-right: 10px;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .membership-premium {
+    font-size: 24px;
+  }
+}
+
+.ultra-hd {
+  border: 1px solid #1e293b;
+  border-radius: 2px;
+  color: #1e293b;
+  font-weight: 600;
+  padding: 2px 4px;
+}
+
+.account-logout-container {
+  display: flex;
+  justify-content: center;
+}
+
+.account-logout {
+  color: #ffffff;
+  background-color: #e50914;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: none;
+  margin-top: 48px;
+  cursor: pointer;
+}
+
+.hr-line {
+  border: 1px solid #cbd5e1;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #131313;
+  border-radius: 12px;
+  padding: 32px;
+  width: 350px;
+  height: 150px;
+}
+
+.logout-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.cancel-logout {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: none;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.confirm-logout {
+  color: #ffffff;
+  background-color: #e50914;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: none;
+  margin-left: 8px;
+  cursor: pointer;
+}

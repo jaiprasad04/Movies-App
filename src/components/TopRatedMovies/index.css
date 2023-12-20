@@ -1,0 +1,30 @@
+.top-rated-container {
+  display: flex;
+  justify-content: center;
+}
+
+.loader-containers {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .loader-containers {
+    height: 170px;
+  }
+}
+
+.failure-movie-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-movie-container {
+    height: 170px;
+  }
+}

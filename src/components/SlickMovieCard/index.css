@@ -1,0 +1,35 @@
+.react-slick-li-item {
+  outline: none;
+  cursor: pointer;
+}
+
+.slick-movie-img {
+  border-radius: 8px;
+  width: 90px;
+  height: 64px;
+  margin: 0px 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-movie-img {
+    width: 254px;
+    height: 180px;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.slider-container {
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .slider-container {
+    width: 100%;
+  }
+}

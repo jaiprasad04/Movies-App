@@ -1,0 +1,40 @@
+.footer-container {
+  background-color: #13131330;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.responsive-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.social-accounts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+}
+
+.contact-us-footer {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}

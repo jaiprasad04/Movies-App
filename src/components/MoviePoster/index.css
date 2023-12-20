@@ -1,0 +1,122 @@
+.movie-poster-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 40vh;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(24, 24, 24, 0.5469),
+    rgba(19, 19, 19, 1),
+    rgba(19, 19, 19, 1),
+    rgb(19, 19, 19, 1)
+  );
+}
+
+@media screen and (min-width: 768px) {
+  .movie-poster-container {
+    height: 80vh;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(24, 24, 24, 0.5469),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0.8),
+      rgba(24, 24, 24, 1)
+    );
+  }
+}
+
+.movie-poster-responsive {
+  width: 90%;
+  max-width: 1140px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-poster-responsive {
+    padding-bottom: 48px;
+  }
+}
+
+.movie-poster-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-poster-title {
+    font-size: 48px;
+  }
+}
+
+.movie-poster-details {
+  display: flex;
+  align-items: center;
+}
+
+.movie-poster-time {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-poster-time {
+    font-size: 18px;
+  }
+}
+
+.movie-poster-certified {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #ffffff;
+  padding: 2px 12px;
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-poster-certified {
+    font-size: 18px;
+  }
+}
+
+.movie-poster-year {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-poster-year {
+    font-size: 18px;
+  }
+}
+
+.movie-poster-overview {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-poster-overview {
+    font-size: 20px;
+    line-height: 26px;
+    width: 632px;
+  }
+}
+
+.movie-poster-button {
+  font-family: 'Roboto';
+  background-color: #ffffff;
+  padding: 8px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
